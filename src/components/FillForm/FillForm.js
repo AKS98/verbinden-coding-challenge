@@ -8,6 +8,7 @@ const FillForm = () => {
   const emailValue = useSelector((state) => state.email);
   const onSubmit = (values, actions) => {
     console.log("submitted");
+    alert("Form Submitted")
   };
   const { values, errors, touched, handleBlur, handleChange, handleSubmit } =
     useFormik({

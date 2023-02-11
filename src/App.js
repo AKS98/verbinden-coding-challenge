@@ -7,6 +7,8 @@ function App() {
   return (
     <div className="App">
       {/* 
+      Do npm i before starting
+
       First Component Login page's validation is done using react and conditional 
       statements only, regex is used for email id validation.
 
